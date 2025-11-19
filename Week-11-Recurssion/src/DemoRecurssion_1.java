@@ -15,22 +15,13 @@ public class DemoRecurssion_1 {
 	
 	public static int AddAllNumToZero(int nums)
 	{
-//		if (nums > 0)
-//		{
-//			
-//			System.out.println("Number is" + nums);
-//			int sum =+ nums;
-//			AddAllNumToZero(nums -1);
-//			System.out.println("Total" + sum);
-//
-//		}
 		
 		//The 
 		if (nums!= 0)
 		{
 			//5
 			System.out.println(nums);
-			//5 + 4
+			//5 + 4 recurision part
 			return (nums + AddAllNumToZero(nums-1));
 		}
 		else
