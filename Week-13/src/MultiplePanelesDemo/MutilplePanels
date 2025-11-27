@@ -1,0 +1,29 @@
+20 Types of EVENT
+
+Basic logic the same...
+
+
+	//ActionListener
+	public void actionPerformed(ActionEvent e) 
+	{
+		// TODO Auto-generated method stub
+		myLabel.setText("CLicked");
+		
+		//All the class derived from object everything can be treated in java
+		Object source = e.getSource();
+		
+		if(source==btn1)
+		{
+			myLabel.setText("Button1 Clicked");
+		}
+		
+		if(source==btn2)
+		{
+			myLabel.setText("Button2 Clicked");
+		}
+		
+	}
+	
+	
+	
+	
