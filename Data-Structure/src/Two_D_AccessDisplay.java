@@ -43,13 +43,13 @@ public class Two_D_AccessDisplay {
         }
     }
 
-    public static void main(String[] args)
+	public static void main(String[] args)
     {
         Scanner __UsrInput__ = new Scanner(System.in);
         
         Start(); // Display initial array
         
-        System.out.println("\nWhat row position do you want to access? (0-4)");
+//        System.out.println("\nWhat row position do you want to access? (0-4)");
         int row = __UsrInput__.nextInt();
         
         System.out.println("What column position do you want to access? (0-4)");

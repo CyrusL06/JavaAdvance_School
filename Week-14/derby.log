@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue Dec 09 14:57:55 PST 2025:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-019b-0555-e96a-00000f5a6568 
+on database directory /Users/cyruslorenzo/Desktop/Java/Week-14/CoffeeDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@1e2e2406 
+Loaded from file:/Users/cyruslorenzo/Desktop/Java%20TExtBook/Lec12/lib/derby.jar
+java.vendor=Eclipse Adoptium
+java.runtime.version=21.0.8+9-LTS
+user.dir=/Users/cyruslorenzo/Desktop/Java/Week-14
+os.name=Mac OS X
+os.arch=aarch64
+os.version=15.5
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

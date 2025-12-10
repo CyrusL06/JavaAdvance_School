@@ -20,6 +20,7 @@ public class Main {
 		final int B_H = 40;
 		
 		JFrame myFrame = new JFrame("null layout Demo");
+		
 		JButton[] myButtons = new JButton[5];
 		myFrame.setLayout(null);
 		
@@ -47,7 +48,9 @@ public class Main {
 	{
 		final int B_W = 60;
 		final int B_H = 40;
+		
 		JFrame myFrame = new JFrame("Flow layout Demo");
+		
 		JButton[] myButtons = new JButton[5];
 		myFrame.setLayout(new FlowLayout());
 		

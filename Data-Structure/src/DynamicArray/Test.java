@@ -25,6 +25,11 @@ public class Test {
 
 		
 		System.out.println( "empty: "  + dynamicArray.isEmpty() );
+		
+		
+		
+		
+		
 
 	}
 

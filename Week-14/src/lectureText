@@ -1,0 +1,112 @@
+Explored Library in Java and to focus on the database
+
+We need to copied out
+Top-Down mechanism
+How? By minimizing the methods to see what type of methods we have
+
+What is URL (Uniform Resource Locator)?
+The resource is in our desktop... 
+
+1. jdbc:derby:CoffeeDB;create=true
+
+ jdbc using javs to use 
+derby -> library
+CoffeeDB -> DB we are manipulating
+create=trie -> if doesnt exist create
+
+
+2. Connection
+  Connection conn =
+                DriverManager.getConnection(DB_URL);
+	
+	DriverManager -> get the driveManager and connection to the DB location
+	
+3. If the DB exist drop the tables 
+
+1. Get Statement Object
+2. try use stmt.execite(QUERY); 
+
+
+
+Package dependency can be different make sure we work on same environment
+
+Now we use derby Library Import it how?
+JRE Systsem Library -> Build Path -> Config new Path 
+-> Add Jar -> AddExternal -> DerbyJar
+
+---
+GO through code Like this
+CreateCoffee -> ShowCoffee - > JFrameDB -> SwingDBDemo
+
+FRAME REALLY INTERESTING!!
+How to verify valid before sending query to database connection??
+
+-- 
+
+
+ButtonGroup
+ArrayList<JRadioButton> customerbutton= new ArrayList<JRadioButton>();
+submit.addActionListener(this);
+cancel.addActionListener(this);
+Enumeration<AbstractButton> allRadioButton=customerGroup.getElements();  
+
+//  Read a file
+//  Put into array List
+// 
+
+
+A car what is the color and details....
+Few option and select 
+
+Course Registration
+File of student records what you have taken what are the avai course
+Minimum requrement you need to take...
+Read the file and create GUI
+
+
+
+WE have inserted some records 
+
+
+1. Create connection
+2.ArrayList because we dont know how many
+
+3. now we knpow how many array so we make loop
+4. Put in loop
+5.Connectin close, 
+6.statement close
+
+
+
+FINAL EXAM ON DATABASE
+NO DATABASE WORKING ON for DB access
+Practice quesstion for DB? 
+CREATE GUI
+
+-------
+Summarize: 
+- GUI in final exam
+- RadioButton -> JList
+
+if you need radiobutton alot use buttonGroup...
+-ActionListener, ItemListener, MouseListener? 
+-File access StreamReader StreamWriter. 
+-Collection ArrayList, Map...
+-2D High-Dimensional Array.
+-2D objec
+
+2D object row max, row min, row col, row avg
+Do this..
+
+2D array or arrays
+ArrayList You need to be able to use ArrayList Easiery since we dont know
+how many we have in the file
+so it will make out life easier.
+
+d
+
+
+
+
+
+

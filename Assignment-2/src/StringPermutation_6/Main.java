@@ -1,44 +1,34 @@
-package StringPermutation;
+package StringPermutation_6;
+
+import java.util.Scanner;
 
 public class Main {
+	 public static void printPermutations(String str, String ans) {
+	        // Base case: If the input string is empty, we have found a complete permutation
+	        if (str.length() == 0) {
+	            System.out.println(ans);
+	            return;
+	        }
 
-	
-	
-	public static int permutationCOunter(int len) 
-	{
-		if (len!= 0)
-		{
-			//5
-			System.out.println(len);
-			//5 + 4 recurision part
-			return (len + permutationCOunter(len-1));
-		}
-		else
-			System.out.println("--------");
-			return len;	
-		
-	}
-	
-	public static String permutationString(int len)
-	{
-		
-		
-		return ")";
-	}
-	
-	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	        // Iterate through each character of the input string
+	        for (int i = 0; i < str.length(); i++) {
+	            char ch = str.charAt(i); // Get the current character
+	            
+	            // Create the remaining string by excluding the current character
+	            String remainingStr = str.substring(0, i) + str.substring(i + 1);
+	            
+	            // Recursive call: find permutations of the remaining string,
+	            // appending the current character to the accumulated answer
+	            printPermutations(remainingStr, ans + ch);
+	        }
+	    }
 
-		String permTest = "mark";
-		
-		int len = permTest.length();
-		int count = permutationCOunter(len);
-		
-		System.out.println("Number is: " + count);
-
-		
-		
-	}
-
+	    public static void main(String[] args) {
+	    	Scanner usrinp = new Scanner(System.in);
+	        System.out.println("Insert String of Value");
+	        String input = usrinp.next();
+	        System.out.println("Permutations of \"" + input + "\":");
+	        printPermutations(input, ""); // Start with an empty accumulated answer
+	    }
 }
+

@@ -41,6 +41,7 @@ public class JComboBoxDemo extends JFrame implements ItemListener, ActionListene
 		this.setSize(400,200);
 		this.setVisible(true);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	
 
 		
 	}
